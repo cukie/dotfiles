@@ -32,6 +32,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
+Plug 'flazz/vim-colorschemes'
 
 " Initialize plugin system
 call plug#end()
@@ -48,8 +49,10 @@ let mapleader=","
 set number "line numbers
 
 set mouse=a "scrolling
-set background=dark
 
+# color scheme
+set background=dark
+colorscheme gruvbox
 
 set clipboard=unnamedplus
 
