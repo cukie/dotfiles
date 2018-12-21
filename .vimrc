@@ -50,7 +50,7 @@ set number "line numbers
 
 set mouse=a "scrolling
 
-# color scheme
+" color scheme
 set background=dark
 colorscheme gruvbox
 
